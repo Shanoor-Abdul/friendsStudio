@@ -11,3 +11,9 @@ export async function middleware(req: NextRequest) {
 
   return NextResponse.next();
 }
+
+// 🟢 PASTE THE CONFIG BLOCK RIGHT HERE AT THE BOTTOM
+export const config = {
+  runtime: 'nodejs', 
+  matcher: ['/admin/:path*'], 
+};
