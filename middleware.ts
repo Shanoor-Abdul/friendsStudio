@@ -13,7 +13,7 @@ export async function middleware(req: NextRequest) {
 }
 
 // 🟢 PASTE THE CONFIG BLOCK RIGHT HERE AT THE BOTTOM
-export const config = {
-  runtime: 'nodejs', 
-  matcher: ['/admin/:path*'], 
-};
+// export const config = {
+//   runtime: 'nodejs', 
+//   matcher: ['/admin/:path*'], 
+// };
